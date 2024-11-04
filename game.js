@@ -43,7 +43,7 @@ function create() {
     scoreText = this.add.text(16, 16, 'Score: 0', { fontSize: '32px', fill: '#fff' });
 
     this.time.addEvent({
-        delay: 700, // Every second
+        delay: 500, // Every second
         callback: spawnBalloon,
         callbackScope: this,
         loop: true
