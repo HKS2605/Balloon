@@ -44,7 +44,7 @@ function create() {
     // Play background music
     const music = this.sound.add('bgm', {
         loop: true,
-        volume: 0.5
+        volume: 1
     });
 
     music.play();
